@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key=" g4a-R7lPsl3DlptnKbPQjYNfTHBMUc7uE9OqCad ", base_url="https://api.gpt4-all.xyz/v1")
+client = OpenAI(api_key=f"{import.meta.env.API_KEY}", base_url="https://api.gpt4-all.xyz/v1")
 
 prompt = input("Enter Prompt:")
 
